@@ -20,7 +20,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1102,
+					983,
 					20,
 					48,
 					43,
@@ -40,6 +40,12 @@
 			PBXPerProjectTemplateStateSaveDate = 282028661;
 			PBXWorkspaceStateSaveDate = 282028661;
 		};
+		perUserProjectItems = {
+			6A23594D10CF701F002593AF /* PBXTextBookmark */ = 6A23594D10CF701F002593AF /* PBXTextBookmark */;
+			6A23594E10CF701F002593AF /* PBXTextBookmark */ = 6A23594E10CF701F002593AF /* PBXTextBookmark */;
+			6A23594F10CF701F002593AF /* PBXTextBookmark */ = 6A23594F10CF701F002593AF /* PBXTextBookmark */;
+			6A23595210CF7030002593AF /* PBXTextBookmark */ = 6A23595210CF7030002593AF /* PBXTextBookmark */;
+		};
 		sourceControlManager = 6A6FCD6A10CF5C5400511A47 /* Source Control */;
 		userBuildSettings = {
 		};
@@ -49,6 +55,60 @@
 	};
 	4D1A51A510A4FF640046A98A /* Embed */ = {
 		activeExec = 0;
+	};
+	6A23593510CF6D1C002593AF /* application_controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 541}}";
+			sepNavSelRange = "{31, 0}";
+			sepNavVisRange = "{0, 31}";
+		};
+	};
+	6A23594B10CF701B002593AF /* transparent_table_view.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 541}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+	6A23594D10CF701F002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23593510CF6D1C002593AF /* application_controller.rb */;
+		name = "application_controller.rb: 2";
+		rLen = 0;
+		rLoc = 31;
+		rType = 0;
+		vrLen = 31;
+		vrLoc = 0;
+	};
+	6A23594E10CF701F002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
+		name = "TransparentTableView.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 151;
+		vrLoc = 0;
+	};
+	6A23594F10CF701F002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
+		name = "TransparentTableView.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 151;
+		vrLoc = 0;
+	};
+	6A23595210CF7030002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
+		name = "TransparentTableView.rb: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
 	};
 	6A6FCD5810CF5C4D00511A47 /* Copa do Mundo 2010 */ = {
 		isa = PBXExecutable;
