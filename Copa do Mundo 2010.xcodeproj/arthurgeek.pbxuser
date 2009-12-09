@@ -19,7 +19,7 @@
 					20,
 					1102,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -34,8 +34,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282025037;
-			PBXWorkspaceStateSaveDate = 282025037;
+			PBXPerProjectTemplateStateSaveDate = 282028661;
+			PBXWorkspaceStateSaveDate = 282028661;
 		};
 		sourceControlManager = 6A6FCD6A10CF5C5400511A47 /* Source Control */;
 		userBuildSettings = {
@@ -63,6 +63,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -70,6 +71,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = "Copa do Mundo 2010";
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
