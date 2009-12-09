@@ -47,6 +47,13 @@
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		6A23593610CF6D1C002593AF /* application_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A23593510CF6D1C002593AF /* application_controller.rb */; };
 		6A23594C10CF701B002593AF /* transparent_table_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */; };
+		6A2359B010CF80BD002593AF /* teams.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6A23595510CF721E002593AF /* teams.yml */; };
+		6A2359C210CF8156002593AF /* fra.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359BE10CF8156002593AF /* fra.png */; };
+		6A2359C310CF8156002593AF /* mex.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359BF10CF8156002593AF /* mex.png */; };
+		6A2359C410CF8156002593AF /* ury.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359C010CF8156002593AF /* ury.png */; };
+		6A2359C510CF8156002593AF /* zaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359C110CF8156002593AF /* zaf.png */; };
+		6A2359D410CF82CF002593AF /* classification_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359D310CF82CF002593AF /* classification_controller.rb */; };
+		6A235BC410CF9D50002593AF /* vertically_centered_text_field_cell.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -77,8 +84,15 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
-		6A23593510CF6D1C002593AF /* application_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = application_controller.rb; path = Classes/application_controller.rb; sourceTree = "<group>"; };
-		6A23594B10CF701B002593AF /* transparent_table_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = transparent_table_view.rb; path = Classes/transparent_table_view.rb; sourceTree = "<group>"; };
+		6A23593510CF6D1C002593AF /* application_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = application_controller.rb; path = Classes/controllers/application_controller.rb; sourceTree = "<group>"; };
+		6A23594B10CF701B002593AF /* transparent_table_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = transparent_table_view.rb; path = Classes/lib/transparent_table_view.rb; sourceTree = "<group>"; };
+		6A23595510CF721E002593AF /* teams.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teams.yml; path = Resources/teams.yml; sourceTree = "<group>"; };
+		6A2359BE10CF8156002593AF /* fra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fra.png; sourceTree = "<group>"; };
+		6A2359BF10CF8156002593AF /* mex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mex.png; sourceTree = "<group>"; };
+		6A2359C010CF8156002593AF /* ury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ury.png; sourceTree = "<group>"; };
+		6A2359C110CF8156002593AF /* zaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaf.png; sourceTree = "<group>"; };
+		6A2359D310CF82CF002593AF /* classification_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = classification_controller.rb; path = Classes/controllers/classification_controller.rb; sourceTree = "<group>"; };
+		6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = vertically_centered_text_field_cell.rb; path = Classes/lib/vertically_centered_text_field_cell.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Copa do Mundo 2010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copa do Mundo 2010.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,8 +113,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */,
 				6A23594B10CF701B002593AF /* transparent_table_view.rb */,
 				6A23593510CF6D1C002593AF /* application_controller.rb */,
+				6A2359D310CF82CF002593AF /* classification_controller.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -166,9 +182,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6A2359BD10CF8156002593AF /* Images */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				6A23595510CF721E002593AF /* teams.yml */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -180,6 +198,18 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A2359BD10CF8156002593AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A2359BE10CF8156002593AF /* fra.png */,
+				6A2359BF10CF8156002593AF /* mex.png */,
+				6A2359C010CF8156002593AF /* ury.png */,
+				6A2359C110CF8156002593AF /* zaf.png */,
+			);
+			name = Images;
+			path = Resources/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +264,13 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				6A23593610CF6D1C002593AF /* application_controller.rb in Resources */,
 				6A23594C10CF701B002593AF /* transparent_table_view.rb in Resources */,
+				6A2359B010CF80BD002593AF /* teams.yml in Resources */,
+				6A2359C210CF8156002593AF /* fra.png in Resources */,
+				6A2359C310CF8156002593AF /* mex.png in Resources */,
+				6A2359C410CF8156002593AF /* ury.png in Resources */,
+				6A2359C510CF8156002593AF /* zaf.png in Resources */,
+				6A2359D410CF82CF002593AF /* classification_controller.rb in Resources */,
+				6A235BC410CF9D50002593AF /* vertically_centered_text_field_cell.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

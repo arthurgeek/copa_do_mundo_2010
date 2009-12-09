@@ -830,7 +830,7 @@
 																								<object class="NSTableView" id="832023675">
 																									<reference key="NSNextResponder" ref="912144032"/>
 																									<int key="NSvFlags">4352</int>
-																									<string key="NSFrameSize">{234, 76}</string>
+																									<string key="NSFrameSize">{234, 104}</string>
 																									<reference key="NSSuperview" ref="912144032"/>
 																									<bool key="NSEnabled">YES</bool>
 																									<object class="_NSCornerView" key="NSCornerView">
@@ -875,7 +875,7 @@
 																											</object>
 																											<object class="NSTextFieldCell" key="NSDataCell" id="294327479">
 																												<int key="NSCellFlags">67239488</int>
-																												<int key="NSCellFlags2">2048</int>
+																												<int key="NSCellFlags2">6144</int>
 																												<string key="NSContents">Text Cell</string>
 																												<object class="NSFont" key="NSSupport" id="916600747">
 																													<string key="NSName">LucidaGrande</string>
@@ -905,7 +905,7 @@
 																										</object>
 																										<object class="NSTableColumn" id="916270847">
 																											<string key="NSIdentifier">flags</string>
-																											<double key="NSWidth">20</double>
+																											<double key="NSWidth">24</double>
 																											<double key="NSMinWidth">15</double>
 																											<double key="NSMaxWidth">1000</double>
 																											<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -934,7 +934,7 @@
 																										</object>
 																										<object class="NSTableColumn" id="201223083">
 																											<string key="NSIdentifier">teams</string>
-																											<double key="NSWidth">195</double>
+																											<double key="NSWidth">191</double>
 																											<double key="NSMinWidth">10</double>
 																											<double key="NSMaxWidth">3.4028234663852886e+38</double>
 																											<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -966,7 +966,7 @@
 																										<int key="NSColorSpace">1</int>
 																										<bytes key="NSRGB">MC43MTE5NTY1MjE3IDAuNzExOTU2NTIxNyAwLjcxMTk1NjUyMTcAA</bytes>
 																									</object>
-																									<double key="NSRowHeight">17</double>
+																									<double key="NSRowHeight">24</double>
 																									<int key="NSTvFlags">46137344</int>
 																									<reference key="NSDelegate"/>
 																									<reference key="NSDataSource"/>
@@ -977,7 +977,7 @@
 																									<int key="NSTableViewDraggingDestinationStyle">0</int>
 																								</object>
 																							</object>
-																							<string key="NSFrameSize">{234, 76}</string>
+																							<string key="NSFrameSize">{234, 104}</string>
 																							<reference key="NSSuperview" ref="943459318"/>
 																							<reference key="NSNextKeyView" ref="832023675"/>
 																							<reference key="NSDocView" ref="832023675"/>
@@ -1007,21 +1007,21 @@
 																							<double key="NSPercent">0.99574468085106382</double>
 																						</object>
 																					</object>
-																					<string key="NSFrame">{{18, 14}, {234, 76}}</string>
+																					<string key="NSFrame">{{18, 14}, {234, 104}}</string>
 																					<reference key="NSSuperview" ref="848288600"/>
 																					<reference key="NSNextKeyView" ref="912144032"/>
 																					<int key="NSsFlags">512</int>
 																					<reference key="NSVScroller" ref="1067923972"/>
 																					<reference key="NSHScroller" ref="205832900"/>
 																					<reference key="NSContentView" ref="912144032"/>
-																					<bytes key="NSScrollAmts">QSAAAEEgAABBmAAAQZgAAA</bytes>
+																					<bytes key="NSScrollAmts">QSAAAEEgAABB0AAAQdAAAA</bytes>
 																				</object>
 																			</object>
-																			<string key="NSFrame">{{1, 1}, {742, 100}}</string>
+																			<string key="NSFrame">{{1, 1}, {742, 128}}</string>
 																			<reference key="NSSuperview" ref="269929276"/>
 																		</object>
 																	</object>
-																	<string key="NSFrame">{{6, 400}, {744, 118}}</string>
+																	<string key="NSFrame">{{6, 372}, {744, 146}}</string>
 																	<reference key="NSSuperview" ref="626626808"/>
 																	<string key="NSOffsets">{0, 0}</string>
 																	<object class="NSTextFieldCell" key="NSTitleCell">
@@ -1058,11 +1058,11 @@
 																		<object class="NSView" id="323634956">
 																			<reference key="NSNextResponder" ref="335379780"/>
 																			<int key="NSvFlags">256</int>
-																			<string key="NSFrame">{{1, 1}, {742, 373}}</string>
+																			<string key="NSFrame">{{1, 1}, {742, 345}}</string>
 																			<reference key="NSSuperview" ref="335379780"/>
 																		</object>
 																	</object>
-																	<string key="NSFrame">{{6, 5}, {744, 391}}</string>
+																	<string key="NSFrame">{{6, 5}, {744, 363}}</string>
 																	<reference key="NSSuperview" ref="626626808"/>
 																	<string key="NSOffsets">{0, 0}</string>
 																	<object class="NSTextFieldCell" key="NSTitleCell">
@@ -1223,6 +1223,9 @@
 			</object>
 			<object class="NSCustomObject" id="276041207">
 				<string key="NSClassName">ApplicationController</string>
+			</object>
+			<object class="NSCustomObject" id="486912422">
+				<string key="NSClassName">ClassificationController</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -1547,6 +1550,54 @@
 						<reference key="destination" ref="276041207"/>
 					</object>
 					<int key="connectionID">412</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">table_view</string>
+						<reference key="source" ref="486912422"/>
+						<reference key="destination" ref="832023675"/>
+					</object>
+					<int key="connectionID">414</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">parent</string>
+						<reference key="source" ref="486912422"/>
+						<reference key="destination" ref="276041207"/>
+					</object>
+					<int key="connectionID">417</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">stage_tab_view</string>
+						<reference key="source" ref="276041207"/>
+						<reference key="destination" ref="1065184016"/>
+					</object>
+					<int key="connectionID">418</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">groups_tab_view</string>
+						<reference key="source" ref="276041207"/>
+						<reference key="destination" ref="244402105"/>
+					</object>
+					<int key="connectionID">420</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dataSource</string>
+						<reference key="source" ref="832023675"/>
+						<reference key="destination" ref="486912422"/>
+					</object>
+					<int key="connectionID">421</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="832023675"/>
+						<reference key="destination" ref="486912422"/>
+					</object>
+					<int key="connectionID">422</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2434,6 +2485,11 @@
 						<reference key="object" ref="276041207"/>
 						<reference key="parent" ref="0"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">413</int>
+						<reference key="object" ref="486912422"/>
+						<reference key="parent" ref="0"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -2617,7 +2673,9 @@
 					<string>404.IBPluginDependency</string>
 					<string>405.IBPluginDependency</string>
 					<string>406.IBPluginDependency</string>
+					<string>407.CustomClassName</string>
 					<string>407.IBPluginDependency</string>
+					<string>408.CustomClassName</string>
 					<string>408.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
@@ -2840,7 +2898,9 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>VerticallyCenteredTextFieldCell</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>VerticallyCenteredTextFieldCell</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
@@ -2894,7 +2954,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">412</int>
+			<int key="maxID">422</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2902,9 +2962,45 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">ApplicationController</string>
 					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>groups_tab_view</string>
+							<string>stage_tab_view</string>
+							<string>teams</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/application_controller.rb</string>
+						<string key="minorKey">Classes/controllers/application_controller.rb</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ClassificationController</string>
+					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>parent</string>
+							<string>table_view</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/controllers/classification_controller.rb</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -2912,7 +3008,7 @@
 					<string key="superclassName">NSTableView</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/TransparentTableView.rb</string>
+						<string key="minorKey">Classes/lib/transparent_table_view.rb</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
@@ -2921,6 +3017,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">VerticallyCenteredTextFieldCell</string>
+					<string key="superclassName">NSTextFieldCell</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/lib/vertically_centered_text_field_cell.rb</string>
 					</object>
 				</object>
 			</object>

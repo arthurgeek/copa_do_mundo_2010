@@ -37,14 +37,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 282028661;
-			PBXWorkspaceStateSaveDate = 282028661;
+			PBXPerProjectTemplateStateSaveDate = 282041317;
+			PBXWorkspaceStateSaveDate = 282041317;
 		};
 		perUserProjectItems = {
-			6A23594D10CF701F002593AF /* PBXTextBookmark */ = 6A23594D10CF701F002593AF /* PBXTextBookmark */;
-			6A23594E10CF701F002593AF /* PBXTextBookmark */ = 6A23594E10CF701F002593AF /* PBXTextBookmark */;
-			6A23594F10CF701F002593AF /* PBXTextBookmark */ = 6A23594F10CF701F002593AF /* PBXTextBookmark */;
-			6A23595210CF7030002593AF /* PBXTextBookmark */ = 6A23595210CF7030002593AF /* PBXTextBookmark */;
+			6A2359B810CF80FC002593AF = 6A2359B810CF80FC002593AF /* PBXTextBookmark */;
+			6A235B7310CF9687002593AF = 6A235B7310CF9687002593AF /* PBXTextBookmark */;
+			6A235B7410CF9687002593AF = 6A235B7410CF9687002593AF /* PBXTextBookmark */;
+			6A235BA610CF9BDE002593AF = 6A235BA610CF9BDE002593AF /* PBXTextBookmark */;
+			6A235BA710CF9BDE002593AF = 6A235BA710CF9BDE002593AF /* PBXTextBookmark */;
+			6A235BAE10CF9BE7002593AF /* PBXTextBookmark */ = 6A235BAE10CF9BE7002593AF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6A6FCD6A10CF5C5400511A47 /* Source Control */;
 		userBuildSettings = {
@@ -58,57 +60,98 @@
 	};
 	6A23593510CF6D1C002593AF /* application_controller.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1161, 541}}";
-			sepNavSelRange = "{31, 0}";
-			sepNavVisRange = "{0, 31}";
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 522}}";
+			sepNavSelRange = "{210, 0}";
+			sepNavVisRange = "{0, 371}";
 		};
 	};
 	6A23594B10CF701B002593AF /* transparent_table_view.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1161, 541}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 522}}";
 			sepNavSelRange = "{193, 0}";
 			sepNavVisRange = "{0, 193}";
 		};
 	};
-	6A23594D10CF701F002593AF /* PBXTextBookmark */ = {
+	6A23595510CF721E002593AF /* teams.yml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 345}";
+		};
+	};
+	6A2359B810CF80FC002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23595510CF721E002593AF /* teams.yml */;
+		name = "teams.yml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	6A2359D310CF82CF002593AF /* classification_controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 522}}";
+			sepNavSelRange = "{545, 0}";
+			sepNavVisRange = "{0, 700}";
+		};
+	};
+	6A235B7310CF9687002593AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6A23593510CF6D1C002593AF /* application_controller.rb */;
-		name = "application_controller.rb: 2";
+		name = "application_controller.rb: 11";
 		rLen = 0;
-		rLoc = 31;
+		rLoc = 210;
 		rType = 0;
-		vrLen = 31;
+		vrLen = 371;
 		vrLoc = 0;
 	};
-	6A23594E10CF701F002593AF /* PBXTextBookmark */ = {
+	6A235B7410CF9687002593AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
-		name = "TransparentTableView.rb: 1";
+		fRef = 6A2359D310CF82CF002593AF /* classification_controller.rb */;
+		name = "classification_controller.rb: 25";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 545;
 		rType = 0;
-		vrLen = 151;
+		vrLen = 700;
 		vrLoc = 0;
 	};
-	6A23594F10CF701F002593AF /* PBXTextBookmark */ = {
+	6A235BA610CF9BDE002593AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
-		name = "TransparentTableView.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 151;
-		vrLoc = 0;
-	};
-	6A23595210CF7030002593AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
-		name = "TransparentTableView.rb: 11";
+		name = "transparent_table_view.rb: 11";
 		rLen = 0;
 		rLoc = 193;
 		rType = 0;
 		vrLen = 193;
 		vrLoc = 0;
+	};
+	6A235BA710CF9BDE002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
+		name = "transparent_table_view.rb: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	6A235BAE10CF9BE7002593AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A23594B10CF701B002593AF /* transparent_table_view.rb */;
+		name = "transparent_table_view.rb: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 598}}";
+			sepNavSelRange = "{1691, 0}";
+			sepNavVisRange = "{130, 1561}";
+		};
 	};
 	6A6FCD5810CF5C4D00511A47 /* Copa do Mundo 2010 */ = {
 		isa = PBXExecutable;

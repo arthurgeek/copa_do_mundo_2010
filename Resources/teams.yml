@@ -1,0 +1,19 @@
+# the flag name follow the ISO 3166-1 alpha-3 country code http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+
+group_a:
+  -
+    name: África do Sul
+    flag: zaf.png
+    position: 1
+  -
+    name: México
+    flag: mex.png
+    position: 2
+  -
+    name: Uruguai
+    flag: ury.png
+    position: 3
+  -
+    name: França
+    flag: fra.png
+    position: 4
