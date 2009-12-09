@@ -7,6 +7,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 6A6FCD5810CF5C4D00511A47 /* Copa do Mundo 2010 */;
 		activeTarget = 8D1107260486CEB800E47090 /* Copa do Mundo 2010 */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Copa do Mundo 2010 */,
+		);
 		codeSenseManager = 6A6FCD6B10CF5C5400511A47 /* Code sense */;
 		executables = (
 			6A6FCD5810CF5C4D00511A47 /* Copa do Mundo 2010 */,
