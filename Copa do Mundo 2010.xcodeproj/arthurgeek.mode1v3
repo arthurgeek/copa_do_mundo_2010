@@ -305,12 +305,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>application_controller.rb</string>
+								<string>groups_controller.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,18 +320,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>application_controller.rb</string>
+										<string>groups_controller.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6A4EA89310DB3997002E88D5</string>
+										<string>6A4EA95C10DB4BE4002E88D5</string>
 										<key>history</key>
 										<array>
-											<string>6A2359B810CF80FC002593AF</string>
-											<string>6A4EA89010DB3997002E88D5</string>
-											<string>6A4EA89110DB3997002E88D5</string>
-											<string>6A4EA89210DB3997002E88D5</string>
-											<string>6A235B7310CF9687002593AF</string>
+											<string>6A4EA91F10DB47EC002E88D5</string>
+											<string>6A4EA95710DB4BE4002E88D5</string>
+											<string>6A4EA95810DB4BE4002E88D5</string>
+											<string>6A4EA95910DB4BE4002E88D5</string>
+											<string>6A4EA95A10DB4BE4002E88D5</string>
+											<string>6A4EA95B10DB4BE4002E88D5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,8 +354,6 @@
 							<string>547pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -529,13 +530,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6A4EA89E10DB3997002E88D5</string>
+		<string>6A4EA95D10DB4BE4002E88D5</string>
 		<string>6A4EA89F10DB3997002E88D5</string>
 		<string>6A4EA8A010DB3997002E88D5</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6A6FCD6810CF5C5400511A47</string>
 		<string>/Users/arthurgeek/Development/MacRuby/copa_do_mundo_2010/Copa do Mundo 2010.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>57 143 1433 864 0 0 1680 1028 </string>
@@ -870,6 +871,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -915,7 +918,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

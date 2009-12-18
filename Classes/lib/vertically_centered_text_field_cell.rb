@@ -2,11 +2,11 @@
 # Ported to Ruby by Arthur Zapparoli
 
 class VerticallyCenteredTextFieldCell < NSTextFieldCell
-  
+
   def awakeFromNib
     @mIsEditingOrSelecting = false
   end
-  
+
   def drawingRectForBounds(theRect)
     # Get the parent's idea of where we should draw
     newRect = super(theRect)
@@ -27,22 +27,22 @@ class VerticallyCenteredTextFieldCell < NSTextFieldCell
         newRect.origin.y += (heightDelta / 2)
       end
     end
-	
+
     return newRect
   end
-  
+
   def selectWithFrame(aRect, inView:controlView, editor:textObj, delegate:anObject, start:selStart, length:selLength)
     aRect = self.drawingRectForBounds(aRect)
     @mIsEditingOrSelecting = true
     super(aRect, inView:controlView, editor:textObj, delegate:anObject, start:selStart, length:selLength)
     @mIsEditingOrSelecting = false
   end
-  
+
   def editWithFrame(aRect, inView:controlView, editor:textObj, delegate:anObject, event:theEvent)
     aRect = self.drawingRectForBounds(aRect)
     @mIsEditingOrSelecting = true
     super(aRect, inView:controlView, editor:textObj, delegate:anObject, event:theEvent)
     @mIsEditingOrSelecting = false
   end
-  
+
 end

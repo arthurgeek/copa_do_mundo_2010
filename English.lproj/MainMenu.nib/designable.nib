@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="379"/>
+			<integer value="380"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1227,7 +1227,7 @@
 			<object class="NSCustomObject" id="486912422">
 				<string key="NSClassName">ClassificationController</string>
 			</object>
-			<object class="NSCustomObject" id="160185357">
+			<object class="NSCustomObject" id="797052821">
 				<string key="NSClassName">GroupsController</string>
 			</object>
 		</object>
@@ -1605,7 +1605,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">groups_view</string>
-						<reference key="source" ref="160185357"/>
+						<reference key="source" ref="797052821"/>
 						<reference key="destination" ref="626626808"/>
 					</object>
 					<int key="connectionID">426</int>
@@ -1614,9 +1614,17 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="244402105"/>
-						<reference key="destination" ref="160185357"/>
+						<reference key="destination" ref="797052821"/>
 					</object>
 					<int key="connectionID">427</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">parent</string>
+						<reference key="source" ref="797052821"/>
+						<reference key="destination" ref="486912422"/>
+					</object>
+					<int key="connectionID">429</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2511,7 +2519,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">423</int>
-						<reference key="object" ref="160185357"/>
+						<reference key="object" ref="797052821"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</object>
@@ -2989,7 +2997,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">427</int>
+			<int key="maxID">429</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3001,12 +3009,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>all_teams</string>
+							<string>group_teams</string>
 							<string>groups_tab_view</string>
 							<string>stage_tab_view</string>
-							<string>teams</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -3042,8 +3052,17 @@
 					<string key="className">GroupsController</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">groups_view</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>groups_view</string>
+							<string>parent</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
