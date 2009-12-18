@@ -1,3 +1,4 @@
+# flags from: http://www.printableworldflags.com/flag-icon
 # the flag name follow the ISO 3166-1 alpha-3 country code http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
 
 group_a:
@@ -16,4 +17,130 @@ group_a:
   -
     name: França
     flag: fra.png
+    position: 4
+
+group_b:
+  -
+    name: Argentina
+    flag: arg.png
+    position: 1
+  -
+    name: Nigéria
+    flag: nga.png
+    position: 2
+  -
+    name: Coreia do Sul
+    flag: kor.png
+    position: 3
+  -
+    name: Grécia
+    flag: grc.png
+    position: 4
+
+group_c:
+  -
+    name: Inglaterra
+    flag: eng.png
+    position: 1
+  -
+    name: Estados Unidos
+    flag: usa.png
+    position: 2
+  -
+    name: Argélia
+    flag: dza.png
+    position: 3
+  -
+    name: Eslovênia
+    flag: svn.png
+    position: 4
+
+group_d:
+  -
+    name: Alemanha
+    flag: deu.png
+    position: 1
+  -
+    name: Austrália
+    flag: aus.png
+    position: 2
+  -
+    name: Sérvia
+    flag: srb.png
+    position: 3
+  -
+    name: Gana
+    flag: gha.png
+    position: 4
+
+group_e:
+  -
+    name: Holanda
+    flag: nld.png
+    position: 1
+  -
+    name: Dinamarca
+    flag: dnk.png
+    position: 2
+  -
+    name: Japão
+    flag: jpn.png
+    position: 3
+  -
+    name: Camarões
+    flag: cmr.png
+    position: 4
+
+group_f:
+  -
+    name: Itália
+    flag: ita.png
+    position: 1
+  -
+    name: Paraguai
+    flag: pry.png
+    position: 2
+  -
+    name: Nova Zelândia
+    flag: nzl.png
+    position: 3
+  -
+    name: Eslováquia
+    flag: svk.png
+    position: 4
+
+group_g:
+  -
+    name: Brasil
+    flag: bra.png
+    position: 1
+  -
+    name: Coreia do Norte
+    flag: prk.png
+    position: 2
+  -
+    name: Costa do Marfim
+    flag: civ.png
+    position: 3
+  -
+    name: Portugal
+    flag: prt.png
+    position: 4
+
+group_h:
+  -
+    name: Espanha
+    flag: esp.png
+    position: 1
+  -
+    name: Suíça
+    flag: che.png
+    position: 2
+  -
+    name: Honduras
+    flag: hnd.png
+    position: 3
+  -
+    name: Chile
+    flag: chl.png
     position: 4
