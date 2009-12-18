@@ -1,0 +1,259 @@
+# the id name follow the ISO 3166-1 alpha-3 country code http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+# match times are in the GMT-3 timezone
+
+group_a:
+  -
+    date: 2010-06-11 11:00
+    venue: Joanesburgo
+    team_1: zaf
+    team_2: mex
+  -
+    date: 2010-06-11 15:30
+    venue: Cidade do Cabo
+    team_1: ury
+    team_2: fra
+  -
+    date: 2010-06-16 15:30
+    venue: Pretória
+    team_1: zaf
+    team_2: ury
+  -
+    date: 2010-06-17 15:30
+    venue: Polokwane
+    team_1: fra
+    team_2: mex
+  -
+    date: 2010-06-22 11:00
+    venue: Rustemburgo
+    team_1: mex
+    team_2: ury
+  -
+    date: 2010-06-22 11:00
+    venue: Bloemfontein
+    team_1: fra
+    team_2: zaf
+
+group_b:
+  -
+    date: 2010-06-12 11:00
+    venue: Joanesburgo
+    team_1: arg
+    team_2: nga
+  -
+    date: 2010-06-12 08:30
+    venue: Porto Elizabeth
+    team_1: kor
+    team_2: grc
+  -
+    date: 2010-06-17 11:30
+    venue: Bloemfontein
+    team_1: grc
+    team_2: nga
+  -
+    date: 2010-06-17 08:30
+    venue: Joanesburgo
+    team_1: arg
+    team_2: kor
+  -
+    date: 2010-06-22 15:30
+    venue: Durban
+    team_1: nga
+    team_2: kor
+  -
+    date: 2010-06-22 15:30
+    venue: Polokwane
+    team_1: grc
+    team_2: arg
+
+group_c:
+  -
+    date: 2010-06-12 15:30
+    venue: Rustemburgo
+    team_1: eng
+    team_2: usa
+  -
+    date: 2010-06-13 08:30
+    venue: Polokwane
+    team_1: dza
+    team_2: svn
+  -
+    date: 2010-06-18 11:30
+    venue: Joanesburgo
+    team_1: svn
+    team_2: usa
+  -
+    date: 2010-06-18 15:30
+    venue: Cidade do Cabo
+    team_1: eng
+    team_2: dza
+  -
+    date: 2010-06-23 11:00
+    venue: Porto Elizabeth
+    team_1: svn
+    team_2: eng
+  -
+    date: 2010-06-23 11:00
+    venue: Pretória
+    team_1: usa
+    team_2: dza
+
+group_d:
+  -
+    date: 2010-06-13 15:30
+    venue: Durban
+    team_1: deu
+    team_2: aus
+  -
+    date: 2010-06-13 11:00
+    venue: Pretória
+    team_1: srb
+    team_2: gha
+  -
+    date: 2010-06-18 08:30
+    venue: Porto Elizabeth
+    team_1: deu
+    team_2: srb
+  -
+    date: 2010-06-19 11:00
+    venue: Rustemburgo
+    team_1: gha
+    team_2: aus
+  -
+    date: 2010-06-23 15:30
+    venue: Joanesburgo
+    team_1: gha
+    team_2: deu
+  -
+    date: 2010-06-23 15:30
+    venue: Nelspruit
+    team_1: aus
+    team_2: srb
+
+group_e:
+  -
+    date: 2010-06-14 08:30
+    venue: Joanesburgo
+    team_1: nld
+    team_2: dnk
+  -
+    date: 2010-06-14 11:00
+    venue: Bloemfontein
+    team_1: jpn
+    team_2: cmr
+  -
+    date: 2010-06-19 08:30
+    venue: Durban
+    team_1: nld
+    team_2: jpn
+  -
+    date: 2010-06-19 15:30
+    venue: Pretória
+    team_1: cmr
+    team_2: dnk
+  -
+    date: 2010-06-24 15:30
+    venue: Rustemburgo
+    team_1: dnk
+    team_2: jpn
+  -
+    date: 2010-06-24 15:30
+    venue: Cidade do Cabo
+    team_1: cmr
+    team_2: nld
+
+group_f:
+  -
+    date: 2010-06-14 15:30
+    venue: Cidade do Cabo
+    team_1: ita
+    team_2: pry
+  -
+    date: 2010-06-15 08:30
+    venue: Rustemburgo
+    team_1: nzl
+    team_2: svk
+  -
+    date: 2010-06-20 08:30
+    venue: Bloemfontein
+    team_1: svk
+    team_2: pry
+  -
+    date: 2010-06-20 11:00
+    venue: Nelspruit
+    team_1: ita
+    team_2: nzl
+  -
+    date: 2010-06-24 11:00
+    venue: Joanesburgo
+    team_1: svk
+    team_2: ita
+  -
+    date: 2010-06-24 11:00
+    venue: Polokwane
+    team_1: pry
+    team_2: nzl
+
+group_g:
+  -
+    date: 2010-06-15 11:00
+    venue: Porto Elizabeth
+    team_1: civ
+    team_2: prt
+  -
+    date: 2010-06-15 15:30
+    venue: Joanesburgo
+    team_1: bra
+    team_2: prk
+  -
+    date: 2010-06-20 15:30
+    venue: Joanesburgo
+    team_1: bra
+    team_2: civ
+  -
+    date: 2010-06-21 08:30
+    venue: Cidade do Cabo
+    team_1: prt
+    team_2: prk
+  -
+    date: 2010-06-25 11:00
+    venue: Durban
+    team_1: prt
+    team_2: bra
+  -
+    date: 2010-06-25 11:00
+    venue: Nelspruit
+    team_1: prk
+    team_2: civ
+
+group_h:
+  -
+    date: 2010-06-16 08:30
+    venue: Nelspruit
+    team_1: hnd
+    team_2: chl
+  -
+    date: 2010-06-16 11:00
+    venue: Durban
+    team_1: esp
+    team_2: che
+  -
+    date: 2010-06-21 11:00
+    venue: Porto Elizabeth
+    team_1: chl
+    team_2: che
+  -
+    date: 2010-06-21 15:30
+    venue: Joanesburgo
+    team_1: esp
+    team_2: hnd
+  -
+    date: 2010-06-25 15:30
+    venue: Pretória
+    team_1: chl
+    team_2: esp
+  -
+    date: 2010-06-25 15:30
+    venue: Bloemfontein
+    team_1: che
+    team_2: hnd
+
