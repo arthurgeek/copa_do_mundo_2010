@@ -1,146 +1,145 @@
-# flags from: http://www.printableworldflags.com/flag-icon
-# the flag name follow the ISO 3166-1 alpha-3 country code http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+# the id name follow the ISO 3166-1 alpha-3 country code http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
 
 group_a:
   -
+    id: zaf
     name: África do Sul
-    flag: zaf.png
     position: 1
   -
+    id: mex
     name: México
-    flag: mex.png
     position: 2
   -
+    id: ury
     name: Uruguai
-    flag: ury.png
     position: 3
   -
+    id: fra
     name: França
-    flag: fra.png
     position: 4
 
 group_b:
   -
+    id: arg
     name: Argentina
-    flag: arg.png
     position: 1
   -
+    id: nga
     name: Nigéria
-    flag: nga.png
     position: 2
   -
+    id: kor
     name: Coreia do Sul
-    flag: kor.png
     position: 3
   -
+    id: grc
     name: Grécia
-    flag: grc.png
     position: 4
 
 group_c:
   -
+    id: eng
     name: Inglaterra
-    flag: eng.png
     position: 1
   -
+    id: usa
     name: Estados Unidos
-    flag: usa.png
     position: 2
   -
+    id: dza
     name: Argélia
-    flag: dza.png
     position: 3
   -
+    id: svn
     name: Eslovênia
-    flag: svn.png
     position: 4
 
 group_d:
   -
+    id: deu
     name: Alemanha
-    flag: deu.png
     position: 1
   -
+    id: aus
     name: Austrália
-    flag: aus.png
     position: 2
   -
+    id: srb
     name: Sérvia
-    flag: srb.png
     position: 3
   -
+    id: gha
     name: Gana
-    flag: gha.png
     position: 4
 
 group_e:
   -
+    id: nld
     name: Holanda
-    flag: nld.png
     position: 1
   -
+    id: dnk
     name: Dinamarca
-    flag: dnk.png
     position: 2
   -
+    id: jpn
     name: Japão
-    flag: jpn.png
     position: 3
   -
+    id: cmr
     name: Camarões
-    flag: cmr.png
     position: 4
 
 group_f:
   -
+    id: ita
     name: Itália
-    flag: ita.png
     position: 1
   -
+    id: pry
     name: Paraguai
-    flag: pry.png
     position: 2
   -
+    id: nzl
     name: Nova Zelândia
-    flag: nzl.png
     position: 3
   -
+    id: svk
     name: Eslováquia
-    flag: svk.png
     position: 4
 
 group_g:
   -
+    id: bra
     name: Brasil
-    flag: bra.png
     position: 1
   -
+    id: prk
     name: Coreia do Norte
-    flag: prk.png
     position: 2
   -
+    id: civ
     name: Costa do Marfim
-    flag: civ.png
     position: 3
   -
+    id: prt
     name: Portugal
-    flag: prt.png
     position: 4
 
 group_h:
   -
+    id: esp
     name: Espanha
-    flag: esp.png
     position: 1
   -
+    id: che
     name: Suíça
-    flag: che.png
     position: 2
   -
+    id: hnd
     name: Honduras
-    flag: hnd.png
     position: 3
   -
+    id: chl
     name: Chile
-    flag: chl.png
     position: 4

@@ -14,7 +14,7 @@ class ClassificationController
       when 'positions'
         parent.group_teams[index]['position'].to_s
       when 'flags'
-        return NSImage.imageNamed(parent.group_teams[index]['flag'])
+        return NSImage.imageNamed(parent.group_teams[index]['id'])
       when 'teams'
         return parent.group_teams[index]['name']
     end
