@@ -1,12 +1,12 @@
 class ClassificationController
 
   # interface elements
-  attr_accessor :table_view, :parent
+  attr_accessor :table_view
 
   # NSTableDataSource informal protocol
 
   def numberOfRowsInTableView(table_view)
-    parent.group_teams.size
+    $group_teams.size
   end
 
   def tableView(table_view, objectValueForTableColumn:column, row:index)
@@ -14,9 +14,9 @@ class ClassificationController
       when 'positions'
         "#{index + 1}"
       when 'flags'
-        return NSImage.imageNamed(parent.group_teams[index]['id'])
+        return NSImage.imageNamed($group_teams[index]['id'])
       when 'teams'
-        return parent.group_teams[index]['name']
+        return $group_teams[index]['name']
     end
   end
 
