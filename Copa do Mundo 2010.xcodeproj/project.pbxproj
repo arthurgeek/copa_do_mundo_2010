@@ -54,6 +54,7 @@
 		6A2359C510CF8156002593AF /* zaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359C110CF8156002593AF /* zaf.png */; };
 		6A2359D410CF82CF002593AF /* classification_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A2359D310CF82CF002593AF /* classification_controller.rb */; };
 		6A235BC410CF9D50002593AF /* vertically_centered_text_field_cell.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */; };
+		6A4EA8A310DB3D17002E88D5 /* groups_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EA8A210DB3D17002E88D5 /* groups_controller.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -93,6 +94,7 @@
 		6A2359C110CF8156002593AF /* zaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaf.png; sourceTree = "<group>"; };
 		6A2359D310CF82CF002593AF /* classification_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = classification_controller.rb; path = Classes/controllers/classification_controller.rb; sourceTree = "<group>"; };
 		6A235BC310CF9D50002593AF /* vertically_centered_text_field_cell.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = vertically_centered_text_field_cell.rb; path = Classes/lib/vertically_centered_text_field_cell.rb; sourceTree = "<group>"; };
+		6A4EA8A210DB3D17002E88D5 /* groups_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = groups_controller.rb; path = Classes/controllers/groups_controller.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Copa do Mundo 2010.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copa do Mundo 2010.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				6A23594B10CF701B002593AF /* transparent_table_view.rb */,
 				6A23593510CF6D1C002593AF /* application_controller.rb */,
 				6A2359D310CF82CF002593AF /* classification_controller.rb */,
+				6A4EA8A210DB3D17002E88D5 /* groups_controller.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				6A2359C510CF8156002593AF /* zaf.png in Resources */,
 				6A2359D410CF82CF002593AF /* classification_controller.rb in Resources */,
 				6A235BC410CF9D50002593AF /* vertically_centered_text_field_cell.rb in Resources */,
+				6A4EA8A310DB3D17002E88D5 /* groups_controller.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
