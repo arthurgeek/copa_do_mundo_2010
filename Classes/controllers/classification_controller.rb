@@ -12,7 +12,7 @@ class ClassificationController
   def tableView(table_view, objectValueForTableColumn:column, row:index)
     case column.identifier
       when 'positions'
-        parent.group_teams[index]['position'].to_s
+        "#{index + 1}"
       when 'flags'
         return NSImage.imageNamed(parent.group_teams[index]['id'])
       when 'teams'
